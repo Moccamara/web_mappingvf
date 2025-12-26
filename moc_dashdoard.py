@@ -60,7 +60,7 @@ if not st.session_state.auth_ok:
 # =========================================================
 # LOAD SE POLYGONS
 # =========================================================
-SE_URL = "https://raw.githubusercontent.com/Moccamara/web_mapping/master/data/SE.geojson"
+SE_URL = "https://raw.githubusercontent.com/Moccamara/web_mappingvf/master/data/SE.geojson"
 
 @st.cache_data(show_spinner=False)
 def load_se_data(url):
@@ -242,3 +242,4 @@ st.markdown("""
 **Geospatial Enterprise Web Mapping**  
 **Mahamadou CAMARA, PhD – Geomatics Engineering** © 2025
 """)
+
